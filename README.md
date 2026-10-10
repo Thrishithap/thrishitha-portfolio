@@ -135,11 +135,6 @@ The included `.github/workflows/deploy.yml` workflow triggers automatically on p
 1. Navigate to **Settings > Pages** in your GitHub repository.
 2. Set **Source** to **GitHub Actions**.
 
-### Vercel / Netlify
-
-This project is zero-config ready for modern static hosts like Vercel or Netlify:
-- **Build Command**: `npm run build`
-- **Output Directory**: `dist`
 
 ---
 
