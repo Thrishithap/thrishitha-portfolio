@@ -1,0 +1,30 @@
+{
+  "name": "thrishitha-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Software Engineer portfolio showcasing distributed microservices, high-scale backend systems, and explainable AI research.",
+  "author": "Thrishitha Perabathula <thrishitha26@gmail.com>",
+  "homepage": "https://github.com/Thrishithap",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node -e \"const fs=require('fs'); if(!fs.existsSync('dist/js')) fs.mkdirSync('dist/js',{recursive:true}); fs.copyFileSync('js/main.js','dist/js/main.js');\"",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "portfolio",
+    "software-engineer",
+    "backend-engineer",
+    "distributed-systems",
+    "microservices",
+    "nodejs",
+    "typescript",
+    "graphql",
+    "rest-api",
+    "machine-learning"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
